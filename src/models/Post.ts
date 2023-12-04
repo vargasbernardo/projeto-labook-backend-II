@@ -34,7 +34,7 @@ export interface PostDB {
   
   export interface LikeDislikeDB {
     user_id: string,
-    playlist_id: string,
+    post_id: string,
     like: number
   }
   
