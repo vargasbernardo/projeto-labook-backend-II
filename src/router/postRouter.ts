@@ -19,3 +19,5 @@ postRouter.post('/', postController.createPost)
 postRouter.get('/', postController.getPosts)
 postRouter.put('/:id', postController.editPostById)
 postRouter.delete('/:id', postController.deletePostById)
+
+postRouter.put('/:id/like', postController.likeOrDislikePost)
